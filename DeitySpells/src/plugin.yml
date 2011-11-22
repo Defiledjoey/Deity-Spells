@@ -1,0 +1,17 @@
+name: DeitySpells
+main: com.imdeity.spells.Main
+version: 0.1
+language: english.yml
+authors: [defiledjoey]
+description: Woooo Spells.
+website: http://ImDeity.com/
+
+commands:
+    DeitySpells:
+        aliases: [ds]
+    pHeal:
+        aliases: [ph]
+    Override:
+        aliases: [ov]
+    Jump:
+        aliases: [j]
