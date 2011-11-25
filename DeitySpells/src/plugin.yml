@@ -13,5 +13,7 @@ commands:
         aliases: [ph]
     Override:
         aliases: [ov]
-    Jump:
-        aliases: [j]
+    Invinceability:
+        aliases: [iv]
+    pHumidify:
+        aliases: [phm]

@@ -5,7 +5,6 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import com.imdeity.spells.utils.Inventory;
 import com.imdeity.spells.utils.Timer;
-
 import org.bukkit.entity.Player;
 import com.imdeity.deityapi.Deity;
 import com.imdeity.spells.Admin.Override;

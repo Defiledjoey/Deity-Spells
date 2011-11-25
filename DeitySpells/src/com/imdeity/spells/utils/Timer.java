@@ -9,8 +9,10 @@ public class Timer {
 	public static boolean canHumidify = true;
 	public static boolean canSmelt = true;
 	public static boolean Invince = false;
-	public static Main plugin;
-	
+    private static Main plugin;
+    public Timer(Main instance) {
+        Timer.plugin = instance;
+    }
 	public static boolean startHealDelay() {
 		if (canHeal == false) {
 			plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
